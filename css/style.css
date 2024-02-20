@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* HEADER */
+
+body{
+    text-align: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+#espaco{
+    width: 200px;
+    height: 200px;
+    padding: 80px;
+    text-align: center;
+}
+#logo{
+   width: 170px;
+   
+}
+header{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.img{
+    max-width: 1000px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+#login{
+    color: white;
+    margin-left: 10px;
+    font-size: 45px;
+}
+
+/* CAIXA DE BUSCA */
+
+#botao-busca{
+    background-color: #CCF2FF;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#botao-busca:hover{
+    background-color: #b9c9ff;
+ 
+}
+#caixa-busca{
+    width: 500px;
+    padding: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+
+}
+
+
+/* MENU LATERAL*/
+nav.menu-lateral{
+    width: 130px;
+    height: 100%;
+    background-color: black;
+    padding: 20px 0 20px 2%;
+    box-shadow: 3px 0 0 #CCF2FF;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 1s
+}
+
+nav.menu-lateral:hover{
+    width: 300px;
+
+} 
+
+.btn-expandir{
+    width: 100%;
+}
+
+.btn-expandir > i{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu a{
+    text-decoration: none;
+    padding: 20px 8%;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+ul li.item-menu:hover{
+    background-color: #CCF2FF;
+}
+ul li.item-menu{
+    transition: 1s;
+}
+
+ul li.ativo{
+    background-color: #CCF2FF;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
+.txt-link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+
+/* MAIN */
+
+
+
+
+.caixa{
+    padding: 5px;
+    background-color: #CCF2FF;
+    color: rgb(0, 0, 0);
+    max-width: 1000px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 40px auto;
+    
+}
+
+
+#categorias{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.banner{
+    flex-wrap: wrap;
+    max-width: 1100px;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 40px auto;
+    
+    
+}
+.banner img{
+    border-radius: 15px;
+}
+
+.next-icon{
+    background-color: #b9c9ff;
+}
+#jogos{
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+#jogos1{
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+#txt{
+    color: black;
+    max-width: 1100px;
+    margin-left: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button.carousel-control-next {
+    justify-content: flex-start;
+}
+
+.carousel-control-prev{
+    justify-content: flex-end;
+}
+
+#txt:hover{
+    color: #5ad6ff;
+
+}
+
+#jogos:hover{
+    transition: 1s;
+    transform: scale(1.1)
+}
+
+#jogos1:hover{
+    transition: 1s;
+    transform: scale(1.1)
+}
+
+.centro{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#espaco1{
+    border-radius: 100%;
+    padding: 50px;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin-left: 60px;
+}
+
+.img:hover{
+    transition: 1s;
+    transform: scale(1.1)
+}
+
+
+/* RODAPE */
+footer {
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    width: 100%;    
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.rodape1{
+    text-align: left;
+    color: white;
+    
+}
+#a{
+    color: white;
+    text-decoration: none;
+}
+
+#a:hover{
+    color: #CCF2FF;
+
+}
+.rodape2{
+    text-align: center;
+    width: 155px;    
+}
+.classe{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+/*CONTEUDO PÁGINA*/ 
+
+@media (max-width: 480px) {
+  
+
+    #conteudo-pagina, #jogos-online {
+        margin-left: 100px;
+    
+    }
+
+    #jogos{
+   
+        width: 150px;
+        height: 150px;
+        padding: 15px;
+       
+    }
+
+    #jogos1{
+   
+        width: 150px;
+        height: 150px;
+        padding: 15px;
+        margin-bottom: 80px;
+       
+    }
+
+    #caixa-busca{
+        width: 100px;
+    }
+
+    #botao-busca{
+        padding: 8px 5px;
+    }
+
+    .btn-expandir > i{
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    ul li.item-menu a .icon > i{
+        font-size: 30px;
+        margin-right: 20px;
+    }
+    
+    ul li.item-menu a{
+        padding: 10px 8%;
+        font-size: 6px;
+        line-height: 20px;
+    }
+
+    nav.menu-lateral:hover{
+        width: 250px;
+    
+    } 
+
+    nav.menu-lateral{
+        width: 100px;
+    }
+
+    .caixa{
+        margin-left: 5px;
+       
+    }
+
+    #login{
+        color: white;
+        margin-left: 10px;
+        font-size: 35px;
+    }
+
+   footer{
+    margin-left: 97px;
+    
+   }
+
+    .classe{
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    }
+
+  }

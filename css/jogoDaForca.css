@@ -1,0 +1,385 @@
+/* HEADER */
+
+body{
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    
+}
+
+#espaco{
+    width: 200px;
+    height: 200px;
+    padding: 80px;
+    text-align: center;
+}
+#logo{
+   width: 170px;
+   
+}
+header{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.img{
+    max-width: 1000px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+#login{
+    color: white;
+    margin-left: 10px;
+    font-size: 45px;
+}
+
+/* CAIXA DE BUSCA */
+
+#botao-busca{
+    background-color: #CCF2FF;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#caixa-busca{
+    width: 500px;
+    padding: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+
+}
+
+
+/* MENU LATERAL*/
+nav.menu-lateral{
+    width: 130px;
+    height: 100%;
+    background-color: black;
+    padding: 20px 0 20px 2%;
+    box-shadow: 3px 0 0 #CCF2FF;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 1s
+}
+
+nav.menu-lateral:hover{
+    width: 300px;
+
+} 
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 0px;
+}
+
+.btn-expandir > i{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu a{
+    text-decoration: none;
+    padding: 20px 4%;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+ul li.item-menu:hover{
+    background-color: #CCF2FF;
+}
+ul li.item-menu{
+    transition: 1s;
+}
+
+ul li.ativo{
+    background-color: #CCF2FF;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
+.txt-link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+} 
+
+
+
+/* main */
+/* JOGO DA FORCA */
+body{
+    background: rgb(189, 230, 255);
+    margin: 0;
+}
+.button{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    padding: 10px 15px;
+    background: rgb(189, 196, 255);
+    ;
+
+    border-radius: 10px;
+    border: 1px solid #ccb0ff;
+    box-shadow: 0px 1px 3px rgba(000, 000, 000, 0.5),
+    inset 0px 1px 0px rgba(255, 255, 255, 1);
+}
+.button:hover{
+    background: rgb(189, 230, 255);
+}
+.button:disabled{
+    background: rgb(229, 245, 255);
+    color: rgb(0, 0, 0);
+}
+#jogo{
+    margin-top: 100px;
+    text-align: center;
+    width: 100vw;
+    height: 50vw;
+}
+#titulo{
+    text-align: center;
+    margin: 40px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px; text-transform: uppercase;
+    color: #fff;
+    text-shadow:  
+    0 0 15px #fff, 0 0 20px #4093d6,
+    0 0 35px #4093d6, 0 0 40px #4093d6,
+    0 0 50px #4093d6, 0 0 75px #4093d6;
+}
+#tabeladiv{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+#forca img{
+    margin-left: 70px;
+    width: 450px;
+    height: 270px;
+    float: right;
+}
+#tema{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px; text-transform: uppercase;
+    color: #4093d6;
+    margin-top: 60px;
+    margin-right: 80px;
+    
+}
+tbody{
+    flex-wrap: wrap;
+}
+#tentativa{
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+#tenta{
+    margin-left: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(189, 171, 255);
+    margin-top: 40px;
+    margin-right: 80px;
+}
+input{
+    margin-left: 1px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(189, 171, 255);
+}
+#acerto{
+    text-align: left;
+    margin: 5px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px; text-transform: uppercase;
+    color: #4093d6;
+  
+}
+#palcerta{
+    text-align: left;
+    margin: 5px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px; text-transform: uppercase;
+    color: #4093d6;
+    
+}
+#tabAcerto{
+    width: 30%;
+}
+.centro{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#letras{
+    display: flex;
+    margin-bottom: 60px;
+    float: right;
+}
+
+.tudo{
+    float: left;
+}
+
+/* rodape */
+footer {
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.rodape1{
+    text-align: left;
+    color: white;
+
+}
+#a{
+    color: white;
+    text-decoration: none;
+
+}
+
+#a:hover{
+    color: #CCF2FF;
+
+}
+.rodape2{
+    text-align: center;
+    width: 155px;
+    
+}
+.classe{
+    display: flex;
+    justify-content: center;
+
+}
+/*CONTEUDO PÁGINA*/ 
+
+@media (max-width: 480px) {
+  
+
+    #conteudo-pagina, #jogos-online {
+        margin-left: 100px;
+    
+    }
+
+    #jogos{
+   
+        width: 150px;
+        height: 150px;
+        padding: 15px;
+       
+    }
+
+    #jogos1{
+   
+        width: 150px;
+        height: 150px;
+        padding: 15px;
+        margin-bottom: 80px;
+       
+    }
+
+    #caixa-busca{
+        width: 100px;
+    }
+
+    #botao-busca{
+        padding: 8px 5px;
+    }
+
+    .btn-expandir > i{
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    ul li.item-menu a .icon > i{
+        font-size: 30px;
+        margin-right: 20px;
+    }
+    
+    ul li.item-menu a{
+        padding: 10px 8%;
+        font-size: 6px;
+        line-height: 20px;
+    }
+
+    nav.menu-lateral:hover{
+        width: 250px;
+    
+    } 
+
+    nav.menu-lateral{
+        width: 100px;
+    }
+
+    .caixa{
+        margin-left: 5px;
+       
+    }
+
+    #login{
+        color: white;
+        margin-left: 10px;
+        font-size: 35px;
+    }
+
+    footer{
+        margin-left: 97px;
+    }
+    
+    .classe{
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+    }
+
+
+  }

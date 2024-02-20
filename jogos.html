@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogos</title>
+
+  <link rel="stylesheet" href="css/jogos.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+
+<body style="background: linear-gradient(rgb(246, 252, 255), #CCF2FF);">
+
+  <nav class="menu-lateral">
+    <div class="btn-expandir">
+      <i class="bi bi-list" id="btn-exp"></i>
+    </div>
+    <ul>
+      <li class="item-menu ativo">
+        <a href="index.html">
+          <span class="icon"><i class="bi bi-house"></i></span>
+          <span class="txt-link">Home</span>
+        </a>
+      </li>
+      <li class="item-menu">
+        <a href="login.html">
+          <span class="icon"><i class="bi bi-people-fill"></i></span>
+          <span class="txt-link">Login</span>
+        </a>
+      </li>
+      <li class="item-menu">
+        <a href="jogos.html">
+          <span class="icon"><i class="bi bi-joystick"></i></span>
+          <span class="txt-link">Games</span>
+        </a>
+      </li>
+      <li class="item-menu">
+        <a href="personagens.html">
+          <span class="icon"><i class="bi bi-stars"></i></span>
+          <span class="txt-link">Personagens</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+  <div div="conteudo-pagina">
+    
+    <header style="background-color: black;"> <!-- Cabeçalho -->
+      <a href="index.html"><img id="logo" src="imagens/logo.png" alt=""></a>
+      <div id="busca">
+        <input type="text" name="" id="caixa-busca">
+        <button id="botao-busca">Buscar</button>
+      </div>
+      <a href="login.html"><i id="login" class="bi bi-box-arrow-in-right"></i></a>
+    </header>
+
+    <main>
+      <section id="jogos-online">
+        <h4 class="caixa">Os Melhores Jogos Online</h4>
+
+        <div class="centro">
+          <a href="jogoDaVelha.html"><img id="jogos" src="imagens/jogoDaVelha.png" alt=""></a>
+          <a href="jogoDaForca.html"><img id="jogos" src="imagens/jogoForca.png" alt=""></a>
+          <a href="jogoDaCobrinha.html"><img id="jogos" src="imagens/jogoDaCobrinha.png" alt=""></a>
+        </div>
+    
+        <div class="centro">
+          <a href="trocaPalavras.html"><img id="jogos" src="imagens/trocaPalavras.png" alt=""></a>
+          <a href="jogoDaMemoria.html"><img id="jogos" src="imagens/jogoDaMemoria.png" alt=""></a>
+          <a href="jogoDaVelha.html"><img id="jogos" src="imagens/jogos.png" alt=""></a>
+        </div>
+
+        <div class="centro">
+          <a href="jogoDaVelha.html"><img id="jogos" src="imagens/fundo1.jpg" alt=""></a>
+          <a href="jogoDaVelha.html"><img id="jogos" src="imagens/fundo2.jpg" alt=""></a>
+          <a href="jogoDaVelha.html"><img id="jogos1" src="imagens/fundo3.jpg" alt=""></a>
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer class="classe">
+      <div class="container">
+        <p class="rodape1">
+          <a id="a" href="index.html">Home</a>
+        </p>
+        <p class="rodape1">
+          <a id="a" href="contato.html">Contato</a>
+        </p>
+        <p class="rodape1">
+          <a id="a" href="sobreNos.html">Sobre Nós</a>
+        </p>
+      </div>
+      
+      <div><img class="rodape2" src="imagens/logo.png" alt=""></div>
+    </footer>
+
+  </div>
+
+  <script src="js/menu.js"></script>
+
+</body>
+
+</html>

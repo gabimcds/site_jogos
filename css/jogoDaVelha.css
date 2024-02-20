@@ -1,0 +1,261 @@
+body{
+    text-align: center;
+    justify-content: center;
+    background-image: url("https://acdn.mitiendanube.com/stores/001/630/548/products/3baeff03d6664bbd276cb047c139d60d-dc86dc0e93b6393dfd16178228291902-640-0.jpg");
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+#espaco{
+    width: 200px;
+    height: 200px;
+    padding: 80px;
+    text-align: center;
+}
+#logo{
+   width: 170px;
+   
+}
+header{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.img{
+    max-width: 1000px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+#login{
+    color: white;
+    margin-left: 10px;
+    font-size: 45px;
+}
+
+/* CAIXA DE BUSCA */
+
+#botao-busca{
+    background-color: #CCF2FF;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#caixa-busca{
+    width: 500px;
+    padding: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+
+}
+
+
+/* MENU LATERAL*/
+nav.menu-lateral{
+    width: 130px;
+    height: 100%;
+    background-color: black;
+    padding: 20px 0 20px 2%;
+    box-shadow: 3px 0 0 #CCF2FF;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 1s
+}
+
+nav.menu-lateral:hover{
+    width: 300px;
+
+} 
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 0px;
+}
+
+.btn-expandir > i{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu a{
+    text-decoration: none;
+    padding: 20px 4%;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+ul li.item-menu:hover{
+    background-color: #CCF2FF;
+}
+ul li.item-menu{
+    transition: 1s;
+}
+
+ul li.ativo{
+    background-color: #CCF2FF;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
+.txt-link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+} 
+
+
+
+/* JOGO DA VELHA */
+#jogo{
+    width: 603px;
+    height: 603px;
+    border: solid 3px;
+    display: inline-block;
+    margin-left: 350px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+#resultado{
+    margin-top: 80px;
+    margin-left: 300px;
+    float: left;
+    color: #1152bb;
+    font-size: 20px;
+}
+#resposta{
+    margin-top: 100px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: #000000;
+}
+.linha{
+    height: 200px;
+    border-bottom: solid 1px;
+}
+.casa{
+    width: 200px;
+    height: 200px;
+    border-right: solid 1px;
+    float: left;
+}
+.xis{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 20px;
+}
+.bola{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 20px;
+}
+.velha{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    margin-top: 15px;
+    background-color: #66a2f7;
+    background-image: linear-gradient(to button, #74adf0, #7da9f0);
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 80px;
+    padding: 25px;
+    text-decoration: none;
+    box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #8ebaf8 1px;
+    display: inline-block;
+    cursor: pointer;
+}
+input[type=button]:hover{
+    background: rgba(205, 196, 255, 0.945);
+    background-image: linear-gradient(to button, #a1a5ad, #bad7ff);
+    text-decoration: none;
+}
+img{
+    margin-top: 40px;
+}
+
+/* rodape */
+footer {
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.rodape1{
+    text-align: left;
+    color: white;
+
+    
+}
+#a{
+    color: white;
+    text-decoration: none;
+
+}
+
+#a:hover{
+    color: #CCF2FF;
+
+}
+.rodape2{
+    text-align: center;
+    width: 155px;
+    
+}
+.classe{
+    display: flex;
+    justify-content: center;
+
+}

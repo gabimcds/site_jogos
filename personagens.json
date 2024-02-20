@@ -1,0 +1,48 @@
+{
+    "personagens": [
+        {
+            "nome": "Elsa",
+            "idade": "21 anos",
+            "carac": "Elsa age de maneira calma, reservada, protetora, compassiva, inteligente, independente e perfeccionista",
+            "img": "<img src='imagens/elsa2.jpg' alt=''>"
+        },
+
+        {
+            "nome": "Ana",
+            "idade": "18 anos",
+            "carac": " Anna é muito excêntrica, desajeitada, impulsiva, e muito inocente. É uma garota de espírito livre e romântica",
+            "img": "<img src='imagens/anna2.jpg' alt=''>"
+        },
+
+        {
+            "nome": "Olaf",
+            "idade": "3 anos",
+            "carac": "Super amistoso, inocente e extrovertido, ele ama abraços calorosos e sonha com as coisas mais impossíveis.",
+            "img": "<img src='imagens/olaf2.jpg' alt=''>"
+        },
+
+        {
+            "nome": "Kistoff",
+            "idade": "24 anos",
+            "carac": "Kristoff é um pouco de um individualista, e atua como um solitário. Ele também pode ser um pouco mal-humorado e egoísta, por vezes, bem como preguiçoso.",
+            "img": "<img src='imagens/kristoff2.jpg' alt=''>"
+        },
+
+        {
+            "nome": "Sven",
+            "idade": "58 anos",
+            "carac": "Sven é pateta, leal, um pouco infantil, inteligente, e com um forte caráter moral.",
+            "img": "<img src='imagens/sven2.jpg' alt=''>"
+        },
+
+        {
+            "nome": "Bruni",
+            "idade": "2 anos",
+            "carac": "Representa o espiríto de fogo e embora seja tímido, é aparecido e ama carinho.",
+            "img": "<img src='imagens/espfogo2.jpg' alt=''>"
+        }
+        
+
+    ]
+
+}
